@@ -1,6 +1,6 @@
 listA = [19, 19, 5, 3, 5, 5, 3, 5]
 listB = [19, 12, 23, 345, 3, 3, 3]
-listC = [35, 56, 55, 2, 2, 5, 2, 3]
+listC = [35, 56, 55, 2, 2, 5, 2, 5]
 
 
 def findcountnums(used_list):
