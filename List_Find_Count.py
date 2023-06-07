@@ -4,15 +4,9 @@ listC = [35, 56, 55, 2, 2, 5, 2, 3]
 
 
 def findcountnums(used_list):
-    list_length = len(used_list)
-    fifth_num = used_list[4]
-    fifth_num_count = used_list.count(fifth_num)
-    if list_length == 8 and fifth_num_count >= fifth_num_count:
-        print(True)
-    else:
-        print(False)
+    return len(used_list) == 8 and used_list.count(used_list[4]) >= 3
 
 
-findcountnums(listA)
-findcountnums(listB)
-findcountnums(listC)
+print(findcountnums(listA))
+print(findcountnums(listB))
+print(findcountnums(listC))
